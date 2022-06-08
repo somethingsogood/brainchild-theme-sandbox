@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wrapper {
+    border: 5px solid black; 
+    width: 100%;
+}
+input {
+    background: #eeeeee;
+}
+.header, .main  {
+    /* border: 1px dashed black; */
+    width: 95vw; 
+}
+.main {
+    border: 1px dashed black;
+    height: 90vh;
+}
+.scroll {
+
+}
+.collection-container{
+   
+}
+.collection-card {
+    border: 1px dashed black;
+    width: 200px;
+    height: 200px;
+}
+footer {
+    height: 20px;
+}
